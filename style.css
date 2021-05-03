@@ -55,6 +55,14 @@ img {
 	left: 10.5em;
 }
 
+#therox-img {
+	width: 150px;
+	height: 100px;
+	position: relative;
+	bottom: 21em;
+	left: 16em;
+}
+
 
 
 iframe {
@@ -76,33 +84,43 @@ div#box-publiced {
 	text-align: left 10px;
 	font-family: sans-serif;
 	position: relative;
-	bottom: 3em;
+	bottom: 2em;
 }
 
-p {
-	position: relative;
-	
-}
+
 
 p.text1 {
 	position: relative;
 	bottom: 6em;
-	right: 16em;
+	right: 31em;
 }
 p.text2 {
 	position: relative;
 	bottom: 8.5em;
-	right: 11.5em;
+	right: 21em;
 }
+p.text3 {
+	position: relative;
+	bottom: 10em;
+	right: 6em;
+    text-align: center;
+}
+
 a.text3 {
 	position: relative;
 	bottom: 5em;
-	right: 14em;
+	right: 30em;
 }
 a.text4 {
 	position: relative;
 	bottom: 7.4em;
-	left: 1.5em;
+	right: 21em;
+}
+
+a.text5 {
+	position: relative;
+	bottom: 9.5em;
+	right: 4em;
 }
 
 a.dire1 {
@@ -115,21 +133,24 @@ a.dire2 {
 	bottom: 1.9em;
 	left: 11em;
 }
+a.dire3 {
+	position: relative;
+	bottom: 1.9em;
+	left: 7.5em;
+}
 
 #redes {
 	background: rgba(0, 0, 0, 0.312);
 	position: relative;
-	top: 70px;
+	top: 50px;
 	padding: 1em 1em;
-	right: 10em;
+	right: 15em;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 30px;
 	text-align: center;
-	
-	
-
 }
+
 
 
 footer {
